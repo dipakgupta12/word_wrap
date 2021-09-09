@@ -1,6 +1,6 @@
 <p>Word Wrap:</p>
 <%= form_with url: wrap_path, local: false do |f| %>
-  <%= f.text_area :text, value: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet nulla venenatis, interdum metus id, viverra elit." %>
+  <%= f.text_area :text %>
   <%= f.number_field :col_num, min: 1 %>
   <%= f.submit %>
 <% end %>
